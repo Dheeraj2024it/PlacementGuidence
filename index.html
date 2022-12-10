@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Guidence</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSogz8Yn5BIpvpnwg4kkG600nDvoYsnjKcyO6fKKKytnde2Dl2ETTx0KS4hNoNmNFMMhAM&usqp=CAU" type="image/x-icon">
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="fream.css">
+    <style>
+        #play {
+            border: 1px solid green;
+            background-color: green;
+            color: white;
+            height: 50px;
+        }
+        
+        .title-based,
+        .text-name {
+            text-align: center;
+            font-family: monospace;
+            color: blueviolet;
+            font-size: 2vw;
+        }
+        
+        .title-based:hover {
+            text-align: center;
+            font-family: monospace;
+            color: rgb(239, 244, 195);
+            font-size: 2vw;
+        }
+        
+        .product-based-company,
+        .service-based-company {
+            text-align: center;
+            margin: 30px;
+        }
+        
+        .product-based-company ul li,
+        .service-based-company ul li {
+            display: inline-block;
+            border: 1px solid white;
+            text-align: center;
+            padding: 3vw;
+            background-image: url("https://i.gifer.com/origin/8a/8a4b5e12f3abed35b73c528c02ad5dd0.gif");
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+        
+        .product-based-company ul li:hover {
+            display: inline-block;
+            border: 2px solid blueviolet;
+            transition: 1s white;
+            text-align: center;
+            padding: 2vw;
+        }
+        
+        .box-1,
+        .box-2 {
+            border: 1px solid white;
+            width: 100%;
+            height: 500px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="head">
+        <ul type="none">
+
+            <li>
+                <a href="https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account" target="_blank" rel="noopener noreferrer" class="fab fa-github" style="color:white"></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/dheeraj-pyasi-6a319a247/" target="_blank" rel="noopener noreferrer" class="fab fa-linkedin" style="color:rgb(205, 205, 243)"></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/login.php/" target="_blank" rel="noopener noreferrer" class="fab fa-facebook" style="color:rgb(184, 184, 252)"></a>
+            </li>
+            <li>
+                <a href="https://web.telegram.org/?legacy=1#/login" target="_blank" rel="noopener noreferrer" class="fab fa-telegram" style="color:rgb(217, 217, 253)"></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/accounts/login/" target="_blank" rel="noopener noreferrer" class="fab fa-instagram" style="color:rgb(233, 104, 125)"></a>
+            </li>
+            <li>
+                <a href="https://web.whatsapp.com/" target="_blank" rel="noopener noreferrer" class="fab fa-whatsapp" style="color:rgb(125, 238, 125)"></a>
+            </li>
+            <li>
+                <a href="https://in.pinterest.com/login/" target="_blank" rel="noopener noreferrer" class="fab fa-pinterest" style="color:red"></a>
+            </li>
+
+            <li>
+                <a href="https://twitter.com/i/flow/login" target="_blank" rel="noopener noreferrer" class="fab fa-twitter" style="color:rgb(224, 57, 57);"></a>
+            </li>
+            <li>
+                <a href="https://www.quora.com/" target="_blank" rel="noopener noreferrer" class="fab fa-quora" style="color:rgb(224, 57, 57);"></a>
+            </li>
+            <li>
+                <a href="auth.html">🔑</a>
+            </li>
+
+        </ul>
+
+    </div>
+    <div class="img">
+        <div class="containers">
+            <div id="carouselExampleCaptions" class="carousel slide " data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://source.unsplash.com/1600x500/?child" class="d-block w-100" alt="https://source.unsplash.com/1600x900/?php,code">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://source.unsplash.com/1600x500/?network,process" class="d-block w-100" alt="https://source.unsplash.com/1600x900/?php,code">
+                        <div class="carousel-caption d-none d-md-block">
+
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://source.unsplash.com/1600x500/?space,rocket" class="d-block w-100" alt="https://source.unsplash.com/1600x900/?code,technology">
+                        <div class="carousel-caption d-none d-md-block">
+
+
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="text-name">
+            <p class="title-based">
+                Campuss Placements Guidence Information Below Here !
+            </p>
+            <p>
+                There are 10+ Top Product Based Companies are available
+            </p>
+
+        </div>
+        <div class="box-1">
+            <div class="product-based-company">
+                <ul type="none">
+
+                    <li>
+                        <a href="https://www.geeksforgeeks.org/amazon-recruitment-process/" target="_blank">Amazon </a>
+                    </li>
+                    <li>
+                        <a href="https://www.oracle.com/" target="_blank">Oracle </a>
+                    </li>
+                    <li>
+                        <a href=https://www.geeksforgeeks.org/linkedin-recruitment-process/ " target=" _blank ">linkedin </a>
+                </li>
+                <li>
+                    <a href=" https://www.geeksforgeeks.org/hewlett-packard-recruitment-process/ " target=" _blank ">Hewlett-Packard (HP)</a>
+                </li>
+                <br>
+                <li>
+                    <a href=" https://www.geeksforgeeks.org/informatica-recruitment-process/ " target=" _blank ">Informatica</a>
+                </li>
+                <li>
+                    <a href=" https://www.geeksforgeeks.org/mcafee-recruitment-process/ " target=" _blank ">McAfee</a>
+                </li>
+                <li>
+                    <a href=" https://www.geeksforgeeks.org/paypal-recruitment-process/ " target=" _blank ">Paypal</a>
+                </li>
+                <li>
+                    <a href=" https://www.geeksforgeeks.org/salesforce-recruitment-process/ " target=" _blank ">Salesforce</a>
+                </li>
+                <br>
+                <li>
+                    <a href=" https://www.geeksforgeeks.org/vmware-interview-experience-set-2-on-campus/ " target=" _blank ">VMware</a>
+                </li>
+                <li><a href=" https://www.geeksforgeeks.org/flipkart-recruitment-process/ " target=" _blank ">Flipkart</a></li>
+                <li><a href=" https://www.geeksforgeeks.org/uber-recruitment-process/ " target=" _blank ">Uber</a></li>
+
+                <li><a href=" https://www.geeksforgeeks.org/intel-recruitment-process/ " target=" _blank ">Intel</a></li>
+                <br>
+                <li>
+                    <a href=" https://www.geeksforgeeks.org/adobe-recruitment-process/ " target=" _blank ">Adobe</a>
+                </li>
+                <li>
+                    <a href=" https://www.geeksforgeeks.org/hashedin-by-deloitte-recruitment-process/ " target=" _blank ">HashedIn</a>
+                </li>
+                <li>
+                    <a href=" https://www.redhat.com/en/jobs/info-guide " target=" _blank ">Redhat </a>
+                </li>
+                <li>
+                    <a href=" https://www.deshaw.com/careers " target=" _blank ">Deshaw </a>
+                </li>
+                <br>
+                <li>
+                    <a href=" https://www.cisco.com/c/en/us/about/careers/applying-to-cisco.html " target=" _blank ">cisco </a>
+                </li>
+                <li>
+                    <a href=" https://www.geeksforgeeks.org/walmart-labs-recruitment-process/ " target=" _blank ">walmart </a>
+                </li>
+                <li>
+                    <a href=" https://www.geeksforgeeks.org/microsoft-recruitment-process/ " target=" _blank ">Microsoft </a>
+                </li>
+
+
+            </ul>
+
+        </div>
+</div>
+        <!-- <br>
+        <div class=" text-name ">
+            <p>
+                There are 20+ Top service Based Companies are available
+            </p>
+
+        </div>
+        <div class=" box-2 ">
+        <div class=" service-based-company ">
+                     
+                  
+            <ul type=" none ">
+
+                <li>
+                    <a href=" https://www.geeksforgeeks.org/amazon-recruitment-process/ " target=" _blank ">Amazon </a>
+                </li>
+                <li>
+                    <a href=" https://www.oracle.com/ " target=" _blank ">Oracle </a>
+                </li>
+                <li>
+                    <a href=https://www.geeksforgeeks.org/linkedin-recruitment-process/ " target=" _blank ">linkedin
+                        </a>
+                    </li>
+                    <li>
+                        <a href=" https://www.geeksforgeeks.org/hewlett-packard-recruitment-process/ " target=" _blank ">Hewlett-Packard (HP)</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href=" https://www.geeksforgeeks.org/informatica-recruitment-process/ " target=" _blank ">Informatica</a>
+                    </li>
+                    <li>
+                        <a href=" https://www.geeksforgeeks.org/mcafee-recruitment-process/ " target=" _blank ">McAfee</a>
+                    </li>
+                    <li>
+                        <a href=" https://www.geeksforgeeks.org/paypal-recruitment-process/ " target=" _blank ">Paypal</a>
+                    </li>
+                    <li>
+                        <a href=" https://www.geeksforgeeks.org/salesforce-recruitment-process/ " target=" _blank ">Salesforce</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href=" https://www.geeksforgeeks.org/vmware-interview-experience-set-2-on-campus/ " target=" _blank ">VMware</a>
+                    </li>
+                    <li><a href=" https://www.geeksforgeeks.org/flipkart-recruitment-process/ " target=" _blank ">Flipkart</a></li>
+                    <li><a href=" https://www.geeksforgeeks.org/uber-recruitment-process/ " target=" _blank ">Uber</a>
+                    </li>
+
+                    <li><a href=" https://www.geeksforgeeks.org/intel-recruitment-process/ " target=" _blank ">Intel</a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href=" https://www.geeksforgeeks.org/adobe-recruitment-process/ " target=" _blank ">Adobe</a>
+                    </li>
+                    <li>
+                        <a href=" https://www.geeksforgeeks.org/hashedin-by-deloitte-recruitment-process/ " target=" _blank ">HashedIn</a>
+                    </li>
+                    <li>
+                        <a href=" https://www.redhat.com/en/jobs/info-guide " target=" _blank ">Redhat </a>
+                    </li>
+                    <li>
+                        <a href=" https://www.deshaw.com/careers " target=" _blank ">Deshaw </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a href=" https://www.cisco.com/c/en/us/about/careers/applying-to-cisco.html " target=" _blank ">cisco </a>
+                    </li>
+                    <li>
+                        <a href=" https://www.geeksforgeeks.org/walmart-labs-recruitment-process/ " target=" _blank ">walmart </a>
+                    </li>
+                    <li>
+                        <a href=" https://www.geeksforgeeks.org/microsoft-recruitment-process/ " target=" _blank ">Microsoft </a>
+                    </li>
+                </ul>
+            </div>
+        </div>-->
+
+
+        <script src=" https://unpkg.com/swiper@7/swiper-bundle.min.js "></script>
+        <script src=" https://unpkg.com/swiper@7/swiper-bundle.min.js "></script>
+        <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity=" sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin=" anonymous "></script>
+        <script src=" https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js " integrity=" sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx " crossorigin=" anonymous "></script>
+
+        <script>
+            // Get the button
+            let mybutton = document.getElementById(" myBtn ");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = " block ";
+                } else {
+                    mybutton.style.display = " none ";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+</body>
+
+</html>
